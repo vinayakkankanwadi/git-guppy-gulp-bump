@@ -23,5 +23,8 @@
     "git-guppy": "^1.2.1",
     "gulp": "^3.9.1",
     "guppy-pre-commit": "^0.4.0"
+  },
+  "dependencies": {
+    "gulp-bump": "^2.4.0"
   }
 }
