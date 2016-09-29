@@ -1,9 +1,12 @@
 var gulp = require('gulp');
 var bump = require('gulp-bump');
+var git = require('gulp-git');
+
 
 gulp.task('pre-commit', function() {
   console.log('Bumpig up the versions');
   gulp.src(['./package.json'])
   .pipe(bump({type:'patch'}))
+  .pipe(git.add())
   .pipe(gulp.dest('./'));
 });

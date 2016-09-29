@@ -1,6 +1,6 @@
 {
   "name": "git-guppy-gulp-bump",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Git guppy with gulp bump",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
     "guppy-pre-commit": "^0.4.0"
   },
   "dependencies": {
-    "gulp-bump": "^2.4.0"
+    "gulp-bump": "^2.4.0",
+    "gulp-git": "^1.11.3"
   }
 }
