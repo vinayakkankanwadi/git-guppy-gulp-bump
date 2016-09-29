@@ -1,0 +1,27 @@
+{
+  "name": "git-guppy-gulp-bump",
+  "version": "1.0.0",
+  "description": "Git guppy with gulp bump",
+  "main": "index.js",
+  "scripts": {
+    "default": "node ./node_modules/gulp/bin/gulp.js default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayakkankanwadi/git-guppy-gulp-bump.git"
+  },
+  "keywords": [
+    "gulp bump guppy git"
+  ],
+  "author": "Vinayak Kankanwadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinayakkankanwadi/git-guppy-gulp-bump/issues"
+  },
+  "homepage": "https://github.com/vinayakkankanwadi/git-guppy-gulp-bump#readme",
+  "devDependencies": {
+    "git-guppy": "^1.2.1",
+    "gulp": "^3.9.1",
+    "guppy-pre-commit": "^0.4.0"
+  }
+}
