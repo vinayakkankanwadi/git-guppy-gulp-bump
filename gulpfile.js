@@ -4,7 +4,7 @@ var git = require('gulp-git');
 
 
 gulp.task('pre-commit', function() {
-  console.log('Bumpig up the versions');
+  console.log('Bumpig up the version');
   gulp.src(['./package.json'])
   .pipe(bump({type:'patch'}))
   .pipe(gulp.dest('./'))
